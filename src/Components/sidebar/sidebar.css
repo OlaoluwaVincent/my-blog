@@ -30,6 +30,8 @@
 
 .sidebarItem>img {
     margin-top: 15px;
+    width: 100%;
+    height: 250px;
 }
 
 .sidebarItem>p {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './sidebar.css';
-import a from '../../asset/a.jpg';
+import a from '../../asset/k.jpg';
 
 const SideBar = () => {
 	return (

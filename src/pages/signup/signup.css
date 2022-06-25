@@ -1,0 +1,61 @@
+.Signup {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../../asset/register.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.SignupTitle {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.SignupForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SignupForm>label {
+    font-size: 20px;
+    margin: 10px 0px;
+    align-self: flex-start;
+    color: white;
+}
+
+.SignupInput {
+    padding: 10px;
+    background-color: white;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid teal;
+    width: 300px;
+}
+
+.SignupButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.register {
+    color: gray;
+}
+
+.registerButton {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: lightcoral;
+    font-size: 110%;
+}
